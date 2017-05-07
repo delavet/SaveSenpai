@@ -2,7 +2,7 @@
 #include "PhysicWorld.h"
 
 
-PhysicWorld::PhysicWorld():gravity(0, -40),world(gravity)
+PhysicWorld::PhysicWorld():gravity(0, -200),world(gravity)
 {
 
 }

@@ -253,13 +253,13 @@ void Logic(DWORD elapse) {
 
 
 			//[jlc]: remove the balls out of range, update HP and score.
-			if (position.x<-GLOBAL_WIDTH / 2 || position.x>GLOBAL_WIDTH / 2
-				|| position.y<-GLOBAL_HEIGHT / 2 || position.y>GLOBAL_HEIGHT / 2) {
+			if (position.x<-GLOBAL_WIDTH / 2-30 || position.x>GLOBAL_WIDTH / 2+30
+				|| position.y<-GLOBAL_HEIGHT / 2-30 || position.y>GLOBAL_HEIGHT / 2+30) {
 				// RED ball goes down from the screen
-				if (MyBodys.vec.at(i).type = TYPE_RED&&position.y < -GLOBAL_HEIGHT / 2) {
+				if (MyBodys.vec.at(i).type == TYPE_RED&&position.y < -GLOBAL_HEIGHT / 2-30) {
 					score += 5;
 				}
-				if (MyBodys.vec.at(i).type == TYPE_BLACK || position.y < -GLOBAL_HEIGHT / 2) {
+				if (MyBodys.vec.at(i).type == TYPE_BLACK || position.y < -GLOBAL_HEIGHT / 2-30) {
 					HP -= 1;
 				}
 				box2DWorld.world.DestroyBody(MyBodys.vec.at(i).ball);
