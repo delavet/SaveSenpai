@@ -1,0 +1,14 @@
+﻿  Win32Project1.cpp
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(175): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(195): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(251): warning C4018: “<”: 有符号/无符号不匹配
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(277): warning C4018: “<”: 有符号/无符号不匹配
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(349): warning C4018: “<”: 有符号/无符号不匹配
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(382): warning C4101: “hdc”: 未引用的局部变量
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(469): warning C4101: “hdc”: 未引用的局部变量
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(520): warning C4101: “height”: 未引用的局部变量
+d:\课程\黑客马拉松\to jlc\win32project1\win32project1\win32project1.cpp(520): warning C4101: “width”: 未引用的局部变量
+  Win32Project1.vcxproj -> D:\课程\黑客马拉松\to jlc\Win32Project1\Debug\Win32Project1.exe
+  Win32Project1.vcxproj -> D:\课程\黑客马拉松\to jlc\Win32Project1\Debug\Win32Project1.pdb (Full PDB)
+  E:\hack\LeapSDK\lib\x86\Leap.dll
+  复制了 1 个文件
